@@ -23,31 +23,33 @@ import Sidebar from "./Components/Sidebar";
 import Nav1 from "./Components/Nav1";
 
 // Dashboard / content pages
-import Student_dashboard from "./Components/Student_dashboard";
-import Calendar from "./Components/Calendar";
-import Assignment from "./Components/Assignment";
-import Attendence from "./Components/Attendence";
-import Course from "./Components/Course";
-import Toolls from "./Components/Tools";
-import Academic from "./Components/Academic";
-import Teacher_dashboard from "./Components/Teacher_dashboard";
-import Parent_dashboard from "./Components/Parent_dashboard";
-import Principal_dashboard from "./Components/Principal_dasboard";
-import Students from "./Components/Teacher_student";
-import Teacher_assignment from "./Components/Teacher_assignment";
-import Teacher_Performances from "./Components/Teacher_report";
-import Teacher_Communication from "./Components/Teacher_Communication"
-import Teacher_attendence from "./Components/Teacher_attendence";
-import Parent_performance from "./Components/Parent_Performance";
-import Parent_attendence from "./Components/Parent_attendence";
-import Parent_analytics from "./Components/Parent_analytics";
-import Principal_announcement from "./Components/Principal_announcement";
-import Principal_create from "./Components/Principal_Creat_announ";
-import Principal_report from "./Components/Principal_Report_Home";
-import Principal_Teacher from "./Components/Principal_Teacher";
-import Principal_student from "./Components/Principal_student_analytics";
-import Principal_report_atten from "./Components/Principal_report_attende";
-import Principal_log from "./Components/Principal_log";
+import Student_dashboard from "./Pages/Student/Student_dashboard";
+import Calendar from "./Pages/Student/Calender";
+import Assignment from "./Pages/Student/Assignment";
+import Attendence from "./Pages/Student/Attendence";
+import Course from "./Pages/Student/Course";
+import Toolls from "./Pages/Student/Tools";
+import Academic from "./Pages/Student/Academic";
+import Teacher_dashboard from "./Pages/Teacher/Teacher_dashboard";
+import Students from "./Pages/Teacher/Teacher_student";
+import Teacher_assignment from "./Pages/Teacher/Teacher_assignment";
+import Teacher_attendence from "./Pages/Teacher/Teacher_attendence";
+import Teacher_Communication from "./Pages/Teacher/Teacher_Communication";
+import Teacher_Performances from "./Pages/Teacher/Teacher_report";
+
+import Parent_dashboard from "./Pages/Parent/Parent_dashboard";
+import Parent_performance from "./Pages/Parent/Parent_Performance";
+import Parent_attendence from "./Pages/Parent/Parent_attendence";
+import Parent_analytics from "./Pages/Parent/Parent_analytics";
+
+import Principal_dashboard from "./Pages/Principal/Principal_dasboard";
+import Principal_announcement from "./Pages/Principal/Principal_announcement";
+import Principal_create from "./Pages/Principal/Principal_Creat_announ";
+import Principal_report from "./Pages/Principal/Principal_Report_Home";
+import Principal_Teacher from "./Pages/Principal/Principal_Teacher";
+import Principal_student from "./Pages/Principal/Principal_student_analytics";
+import Principal_report_atten from "./Pages/Principal/Principal_report_attende";
+import Principal_log from "./Pages/Principal/Principal_log";
 
 
 // Login / Auth components

@@ -2,6 +2,10 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import LoginCard from "./LoginCard";
+import studentImg from "../assets/Student.png";
+import teacherImg from "../assets/Teacher.png";
+import parentImg from "../assets/Parents.png";
+import principalImg from "../assets/Principal.png";
 
 export default function LoginSelection() {
 
@@ -12,25 +16,25 @@ export default function LoginSelection() {
       type: "student",
       title: "Student Login",
       subtitle: "Begin your learning journey with focus and ease.",
-      img: "src/assets/Student.png",
+      img: studentImg,
     },
     {
       type: "teacher",
       title: "Teacher Login",
       subtitle: "Empower, inspire, and manage with confidence.",
-      img: "src/assets/Teacher.png",
+      img: teacherImg,
     },
     {
       type: "parent",
       title: "Parent Login",
       subtitle: "Stay involved in your child's learning journey.",
-      img: "src/assets/Parents.png",
+      img: parentImg,
     },
     {
       type: "principal",
       title: "Principal Login",
       subtitle: "Manage operations and stay organized.",
-      img: "src/assets/Principal.png",
+      img: principalImg,
     },
   ];
 
