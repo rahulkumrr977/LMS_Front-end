@@ -15,7 +15,7 @@ export default function Sidebar({ sidebarOpen, menuItems }) {
   if (!sidebarOpen) return null;
 
   return (
-    <div className="bg-[#1A4B8A] text-white w-74 fixed top-20 left-0 h-[calc(100vh-5rem)] pt-25 flex flex-col justify-between z-40">
+    <div className="bg-[#1A4B8A] text-white w-64 fixed top-20 left-0 h-[calc(100vh-5rem)] pt-25 flex flex-col justify-between z-40">
       <div>
         {menuItems.map((item) => (
           <Link to={item.path} key={item.name}>

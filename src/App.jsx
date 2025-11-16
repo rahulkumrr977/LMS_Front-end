@@ -17,6 +17,7 @@ import {
 
 } from "react-icons/fa";
 
+
 // Layout / Nav components
 import Nav from "./Components/Nav";
 import Sidebar from "./Components/Sidebar";
@@ -135,6 +136,7 @@ function LayoutWithNav({ children, menuItems }) {
             sidebarOpen ? "ml-64" : "ml-0"
           }`}
         >
+          <div className="w-full max-w-7xl mx-auto px-4"></div>
           {children}
         </main>
       </div>
