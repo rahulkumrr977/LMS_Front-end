@@ -66,7 +66,7 @@ export default function LoginSelection() {
 
         {/* Cards grid */}
         {/* <div className="mx-[200px] grid grid-cols-4 gap-6  "> */}
-          <div className="mx-4 sm:mx-10 md:mx-20 lg:mx-32 xl:mx-48 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="sm:mx-10 md:mx-20 lg:mx-5 xl:mx-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
           {loginTypes.map((login, index) => (
             <LoginCard

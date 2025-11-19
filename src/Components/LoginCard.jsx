@@ -15,20 +15,20 @@ export default function LoginCard({ type, title, subtitle, img, onClick }) {
       {/* Hover overlay color */}
       <div
         // className={`absolute inset-0 opacity-0 group-hover:opacity-100 ${hoverColor} transition-opacity duration-300`}
-        className={`absolute inset-0 opacity-0 group-hover:opacity-100 transform translate-y-full group-hover:translate-y-0 ${hoverColor} transition-all duration-500 ease-in-out z-0`}
+        className={`absolute inset-0 opacity-1 group-hover:opacity-100 transform translate-y-full group-hover:translate-y-0 ${hoverColor} transition-all duration-500 ease-in-out z-0`}
       ></div>
 
       {/* Icon / Illustration */}
-      <div className="mb-10 relative z-10">
+      <div className="relative z-10">
         <img
           src={img}
           alt={title}
-          className="  mx-auto object-contain drop-shadow-[0_10px_20px_rgba(0,0,0,10)] animate-float group-hover:scale-110 group-hover:-translate-y-1 transition-transform duration-300"
+          className="  mx-auto object-contain drop-shadow-[0_10px_20px_rgba(0,0,0,10)] animate-float group-hover:scale-90 group-hover:-translate-y-1 transition-transform duration-300"
         />
       </div>
 
       {/* Title */}
-      <h2 className="text-white text-xl font-bold mb-4 uppercase tracking-wide relative z-10">
+      <h2 className="text-white text-sm font-bold uppercase tracking-wide relative z-10">
         {title}
       </h2>
 
